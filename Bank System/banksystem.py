@@ -44,7 +44,7 @@ while True:
         
     #Valores devem ser printados no extrato da conta            
     elif option == "e":
-        print(f"Extrato:\n {daily_withdrawal}")
+        print(f"Extrato:\n")
         if len(transfer_amount) > 0:
 
             print("Depósitos efetuados: ")
