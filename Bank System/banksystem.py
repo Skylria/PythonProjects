@@ -1,8 +1,11 @@
 import datetime as dt
 account_amt = 0.0
 receipt_list = [] 
+list_user = []
+def register_user():
+    user = {}
+    list_user.append(user)
 
-# def create_user():
 
 
 def transfer(account_amt, receipt_list, transfer_value):
